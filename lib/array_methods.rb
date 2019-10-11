@@ -1,7 +1,7 @@
 def find_element_index(array, value_to_find)
   # Add your solution here
   array.length.time {|value_to_find|
-    puts array.length
+    puts array.length[value_to_find]
   }
 end
 
