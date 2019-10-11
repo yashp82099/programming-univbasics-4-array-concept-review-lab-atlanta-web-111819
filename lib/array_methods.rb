@@ -1,6 +1,6 @@
 def find_element_index(array, value_to_find)
   length = array.length
-  length.time do |value_to_find|
+  length.times do |value_to_find|
     put array[value_to_find]
   end
 
